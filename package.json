@@ -1,0 +1,45 @@
+{
+  "name": "awesome-streetview",
+  "version": "1.0.0",
+  "description": "random beautiful [lat, lng] Google Street View locations",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "index-of-array": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "test",
+    "array",
+    "lat",
+    "lng",
+    "pretty",
+    "panorama",
+    "pano",
+    "panoramas",
+    "id",
+    "street",
+    "view",
+    "streetview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/awesome-streetview.git"
+  },
+  "homepage": "https://github.com/Jam3/awesome-streetview",
+  "bugs": {
+    "url": "https://github.com/Jam3/awesome-streetview/issues"
+  }
+}
