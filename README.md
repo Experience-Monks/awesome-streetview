@@ -4,9 +4,9 @@
 
 Returns a random `[ latitude, longitude ]` location that looks *darn good* in Google Street View.
 
-![screens](http://i.imgur.com/NOq9as1.jpg)
-
 PRs for more welcome, see [Contributing](#contributing).
+
+![equirects](http://i.imgur.com/rm01Wrw.jpg)
 
 ## Example
 
@@ -23,11 +23,13 @@ streetview.locations
 //=> [ ... [33.839717, 135.774165], ... ]
 ```
 
-The latter photo sphere:
+For example:
 
-![latlng](http://i.imgur.com/pBnKvgx.jpg)
+![latlng](http://i.imgur.com/UiEOXh7.png)
 
-  <sup>[(view in Google Street View)](https://www.google.ca/maps/@33.839717,135.774165,3a,75y,162h,90t/data=!3m8!1e1!3m6!1s8VzDsruxiVgAAAQfCLiNTg!2e0!3e11!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3D8VzDsruxiVgAAAQfCLiNTg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D162%26pitch%3D0!7i7168!8i3584)</sup>
+> <sup>[`[33.839717, 135.774165]` - view in google street view](https://www.google.ca/maps/@33.839717,135.774165,3a,75y,162h,90t/data=!3m8!1e1!3m6!1s8VzDsruxiVgAAAQfCLiNTg!2e0!3e11!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3D8VzDsruxiVgAAAQfCLiNTg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D162%26pitch%3D0!7i7168!8i3584)</sup>
+
+The `lat,lng` can be extracted from the URL.
 
 ## Install
 
