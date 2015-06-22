@@ -1,6 +1,6 @@
 {
   "name": "awesome-streetview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "random beautiful [lat, lng] Google Street View locations",
   "main": "index.js",
   "license": "MIT",
