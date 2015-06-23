@@ -2,7 +2,7 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-[(demo)](http://mattdesl.github.io/google-panorama-equirectangular/demo/)
+[(webgl demo - reload to see more)](http://mattdesl.github.io/google-panorama-equirectangular/demo/)
 
 Returns a random `[ latitude, longitude ]` location that looks *darn good* in Google Street View.
 
