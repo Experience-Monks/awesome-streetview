@@ -59,10 +59,15 @@ A JSON file containing the raw `[ latitude, longitude ]` pairs.
 
 If you want to add more, submit a [pull request](https://github.com/Jam3/awesome-streetview/pulls) patching [locations.json](./locations.json), and include a screenshot of your beautiful `lat,lng` in Google Street View. The Evil Master Overlord will then decide whether it is worthy of being added.
 
+Please test the location with `google-panorama-equirectangular` to ensure it stitches correctly. For example:
+
+http://mattdesl.github.io/google-panorama-equirectangular/demo/#-28.398576,-49.550573
+
 ## See Also
 
 - [google-panorama-by-location](https://github.com/Jam3/google-panorama-by-location)
 - [google-panorama-by-id](https://github.com/Jam3/google-panorama-by-id)
+- [google-panorama-equirectangular](https://github.com/mattdesl/google-panorama-equirectangular)
 
 ## License
 
