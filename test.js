@@ -10,5 +10,16 @@ test('random beautiful [lat, lng] Google Street View locations', function (t) {
   t.notEqual(indexOfArray(all, second), -1, 'gets random')
   t.notDeepEqual(rnd, second, 'gets different than previous')
   t.deepEqual(streetview.locations, all, 'interface provides all')
+  
+  var count = {}
+  all.forEach(function (loc) {
+    var key = loc.join(',')
+    if (key in count) count[key]++
+    else count[key] = 1
+  })
+  var dupes = Object.keys(count).filter(function (k) {
+    return count[k] > 1
+  })
+  t.deepEqual(dupes, [], 'no duplicates')  
   t.end()
 })
