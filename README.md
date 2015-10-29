@@ -61,7 +61,7 @@ If you want to add more, submit a [pull request](https://github.com/Jam3/awesome
 
 Please test the location with `google-panorama-equirectangular` to ensure it stitches correctly. For example:
 
-http://mattdesl.github.io/google-panorama-equirectangular/demo/#-28.398576,-49.550573
+http://mattdesl.github.io/google-panorama-equirectangular/demo/#36.2381539,137.9683151
 
 ## See Also
 
